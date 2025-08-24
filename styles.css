@@ -148,3 +148,15 @@ html {
     color: #555;
     margin-bottom: 1rem;
 }
+
+.git_commands ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.5rem;
+}
+
+.git_commands p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
